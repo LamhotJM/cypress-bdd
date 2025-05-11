@@ -1,6 +1,8 @@
 # TypeScript + Cypress-Cucumber (BDD) + ESBuild + Page Objects + Env-based configs.
 
 By: Lamhot Siagian 
+![52569d0e-f9b8-4bb3-8f36-ca3d6e4b9fa8](https://github.com/user-attachments/assets/8c73c957-71c3-47d2-992b-4c960946cb8e)
+
 ---
 
 ## 📋 Prerequisites
