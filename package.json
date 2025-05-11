@@ -1,0 +1,37 @@
+{
+  "name": "cypress-bdd-google-ts",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "cypress run --env CYPRESS_ENV=dev",
+    "open": "cypress open --env CYPRESS_ENV=dev"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "@types/cypress": "^1.1.6",
+    "@types/node": "^18.7.18",
+    "cypress": "^14.3.3",
+    "esbuild": "^0.25.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "description": "Here’s a step-to-step guide to get Cypress up and running with BDD (Cucumber), Environment-Based Configs, and the Page Object Model—using a simple Google Search example.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LamhotJM/cypress-bdd.git"
+  },
+  "compilerOptions": {
+    "types": [
+      "cypress",
+      "@badeball/cypress-cucumber-preprocessor"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LamhotJM/cypress-bdd/issues"
+  },
+  "homepage": "https://github.com/LamhotJM/cypress-bdd#readme"
+}
